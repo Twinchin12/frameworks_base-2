@@ -6461,6 +6461,19 @@ public final class Settings {
          * @hide
          */
         public static final String UDFPS_COLOR = "udfps_color";
+        
+        /**
+         * Haptic feedback on scroll fling
+         * @hide
+         */ 
+        @Readable
+        public static final String SCROLL_FLING_HAPTIC_FEEDBACK = "scroll_fling_haptic_feedback";
+        
+        /**
+         * Haptic feedback on brightness slider
+         * @hide
+         */ 
+        public static final String BRIGHTNESS_SLIDER_HAPTIC_FEEDBACK = "brightness_slider_haptic_feedback";
 
         /**
          * reTicker Status
